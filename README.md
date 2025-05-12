@@ -54,7 +54,7 @@ class ToDoList:
             print("Couldn't update task. Try again.")
 
 
-# Note: Just a basic interaction loop here.
+
 def main():
     todo = ToDoList()
     print("Simple To-Do App (type 'help' for commands)")
@@ -107,7 +107,7 @@ if __name__ == "__main__":
     main()
 
 OUTPUT:
-Simple To-Do App (type 'help' for commands)
+Simple To-Do App
 >> add
 Task description: Buy groceries
 Category (optional): Shopping
