@@ -140,4 +140,4 @@ Removed: Buy groceries
 >> list
 1. [ ] Read 'Atomic Habits' (Category: General, Priority: Medium)
 >> quit
-Goodbye!
+Goodbye! 
