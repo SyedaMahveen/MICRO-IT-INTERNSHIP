@@ -105,3 +105,39 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+OUTPUT:
+Simple To-Do App (type 'help' for commands)
+>> add
+Task description: Buy groceries
+Category (optional): Shopping
+Priority (Low/Medium/High): High
+Task added.
+>> add
+Task description: Read a book
+Category (optional): 
+Priority (Low/Medium/High): 
+Task added.
+>> list
+1. [ ] Buy groceries (Category: Shopping, Priority: High)
+2. [ ] Read a book (Category: General, Priority: Medium)
+>> done
+Task number to mark complete: 1
+Marked as complete.
+>> list
+1. [x] Buy groceries (Category: Shopping, Priority: High)
+2. [ ] Read a book (Category: General, Priority: Medium)
+>> edit
+Task number to edit: 2
+New description: Read 'Atomic Habits'
+Task updated.
+>> list
+1. [x] Buy groceries (Category: Shopping, Priority: High)
+2. [ ] Read 'Atomic Habits' (Category: General, Priority: Medium)
+>> delete
+Task number to delete: 1
+Removed: Buy groceries
+>> list
+1. [ ] Read 'Atomic Habits' (Category: General, Priority: Medium)
+>> quit
+Goodbye!
